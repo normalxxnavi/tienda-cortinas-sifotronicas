@@ -92,11 +92,11 @@ function CortinaPantalla() {
                         <img
                             src="https://images.unsplash.com/photo-1573507811472-909cd17e834d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="Cortina de Pantalla Blanca"
-                            className="rounded-lg bg-gray-100 max-w-md max-h-md"
+                            className="rounded-lg bg-gray-100 max-w-md w-full md:max-w-md md:w-auto"
                         />
                     </div>
+                    <button className="bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg mb-4 md:mb-10 md:w-60 hover:bg-indigo-700" onClick={handleContactClick}>Contacto</button>
                 </div>
-                <button className="bg-indigo-600 text-white font-bold py-2 px-64 rounded ml-80 mb-10 h-12 hover:bg-indigo-700" onClick={handleContactClick}>Contacto</button>
             </div>
             <div id="drawer-js-example" class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-white w-80 dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-js-example">
                 <h5 id="drawer-js-example" class="inline-flex items-center mb-4 text-base font-semibold text-gray-500 dark:text-gray-400"><svg class="w-4 h-4 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

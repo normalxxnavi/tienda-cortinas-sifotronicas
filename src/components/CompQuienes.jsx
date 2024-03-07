@@ -6,7 +6,6 @@ function CompQuienes() {
         { name: 'Inicio', to: '/' },
         { name: 'Catalogo', to: '/catalogo' },
         { name: 'Acerca De..', to: '/acerca' },
-        { name: 'Contacto', to: '/contacto' },
     ]
 
     return (
